@@ -1,0 +1,51 @@
+.button { 
+  border: 1px solid white;
+  font-weight: 600;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-transform: uppercase; 
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.button-medium {
+  padding: 8px 20px;
+  font-size: 18px;
+}
+
+.button-large {
+  padding: 12px 36px;
+  font-size: 22px;
+}
+
+.no-hovered {
+  background-color: transparent;
+  color: white;
+}
+
+.hovered {
+  background-color: white;
+  color: black;
+}
+
+.no-hovered:hover {
+  background-color: white;
+  color: black;
+}
+
+.hovered:hover {
+  background-color: transparent;
+  color: white;
+}
+
+@media all and (max-width: 850px) {
+  .button-large {
+    height: 60px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+}

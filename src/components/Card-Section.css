@@ -1,0 +1,35 @@
+.card-section {
+  width: 100vw;
+  height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+}
+
+.card-wrapper { 
+  width: 90%;
+  max-width: 1140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.wrapper-top {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+@media all and (max-width: 850px) {
+  .card-wrapper {
+    width: 70%;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .card-wrapper {
+    width: 90%;
+  }
+}

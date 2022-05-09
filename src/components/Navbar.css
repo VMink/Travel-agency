@@ -1,0 +1,66 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10%;
+  text-align: center;
+  position: fixed;
+  z-index: 9999;
+}
+
+.left {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.right ul {
+  list-style: none;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.right ul li {
+  display: inline-block;
+  width: 100px;
+  height: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 80px;
+}
+
+.right ul li:hover {
+  transition: all 0.2s ease-out;
+  border-bottom: 4px solid white;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+
+.mobile-btn {
+  font-size: 24px;
+  display: none;
+}
+
+@media all and (max-width: 850px) {
+  .right {
+    display: none;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  .mobile-btn {
+    display: block;
+  }
+}
