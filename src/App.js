@@ -20,10 +20,10 @@ function App() {
       <Sidebar click={click}/>
       <Routes>
         <Route path='/Travel-agency/' exact element={<Home />} />
-        <Route path='/Travel-agency/services' exact element={<Services />} />
-        <Route path='/Travel-agency/products' exact element={<Products />} />
-        <Route path='/Travel-agency/sign-up' exact element={<SignIn />} />
-        <Route path='/Travel-agency/trip' exact element={<SignIn />} />
+        <Route path='/services' exact element={<Services />} />
+        <Route path='/products' exact element={<Products />} />
+        <Route path='/sign-up' exact element={<SignIn />} />
+        <Route path='/trip' exact element={<SignIn />} />
       </Routes>
     </BrowserRouter>
   );

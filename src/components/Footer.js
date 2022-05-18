@@ -19,7 +19,7 @@ const Footer = () => {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='Travel-agency/sign-up'>How it works</Link>
+            <Link to='/sign-up'>How it works</Link>
             <Link to='Travel-agency/'>Testimonials</Link>
             <Link to='Travel-agency/'>Careers</Link>
             <Link to='Travel-agency/'>Investors</Link>

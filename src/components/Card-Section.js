@@ -11,11 +11,11 @@ const CardSection = () => {
   return (
     <div className='card-section'>
       <div className='card-wrapper'>
-        <Card tag='Adventure' img={P1} content='Explore the hidden waterfall deep inside the Amazon Jungle' path='Travel-agency/trip' type='large'></Card>
-        <Card tag='Luxury' img={P2} content='Travel through the Islands of Bali in a Private Cruise' path='Travel-agency/trip' type='large'></Card>
-        <Card tag='Mystery' img={P3} content='Set Sail in the Atlantic Ocean visiting Uncharted Waters' path='Travel-agency/trip' type='small'></Card>
-        <Card tag='Adventure' img={P4} content='Experience Football on Top of the Himilayan Mountains' path='Travel-agency/trip' type='small'></Card>
-        <Card tag='Luxury' img={P5} content='Ride through the Sahara Desert in guided camel tour' path='Travel-agency/trip' type='small'></Card>
+        <Card tag='Adventure' img={P1} content='Explore the hidden waterfall deep inside the Amazon Jungle' path='/trip' type='large'></Card>
+        <Card tag='Luxury' img={P2} content='Travel through the Islands of Bali in a Private Cruise' path='/trip' type='large'></Card>
+        <Card tag='Mystery' img={P3} content='Set Sail in the Atlantic Ocean visiting Uncharted Waters' path='/trip' type='small'></Card>
+        <Card tag='Adventure' img={P4} content='Experience Football on Top of the Himilayan Mountains' path='/trip' type='small'></Card>
+        <Card tag='Luxury' img={P5} content='Ride through the Sahara Desert in guided camel tour' path='/trip' type='small'></Card>
       </div>
     </div>
   )

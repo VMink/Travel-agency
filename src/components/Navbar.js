@@ -18,10 +18,10 @@ const Navbar = ({handleClick, click}) => {
             <Link className='nav-link' to="Travel-agency/">Home</Link>
           </li>
           <li>
-            <Link className='nav-link' to="Travel-agency/services">Services</Link>
+            <Link className='nav-link' to="/services">Services</Link>
           </li>
           <li>
-            <Link className='nav-link' to="Travel-agency/products">Products</Link>
+            <Link className='nav-link' to="/products">Products</Link>
           </li>
         </ul>
         <Button btnSize={'button-medium'} btnContent={'Sign Up'} isHovered={'no-hovered'}>SIGN IN</Button>

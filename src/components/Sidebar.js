@@ -15,13 +15,13 @@ const Sidebar = ({click}) => {
         <Link className='nav-link-mobile' to="Travel-agency/">Home</Link>
       </div>
       <div className='nav-link-container'>
-        <Link className='nav-link-mobile' to="Travel-agency/services">Services</Link>
+        <Link className='nav-link-mobile' to="/services">Services</Link>
       </div>
       <div className='nav-link-container'>
-        <Link className='nav-link-mobile' to="Travel-agency/products">Products</Link>
+        <Link className='nav-link-mobile' to="/products">Products</Link>
       </div>
       <div className='btn-container'>
-        <Link to='Travel-agency/sign-up'>    
+        <Link to='sign-up'>    
           <button className='mobile-button'>Sign Up</button>
         </Link>
       </div>
