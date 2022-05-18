@@ -6,7 +6,7 @@ import { AiOutlinePlayCircle } from 'react-icons/ai';
 const Banner = () => {
   return (
     <div className='banner'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted></video>
+      <video src='Travel-agency/videos/video-1.mp4' autoPlay loop muted></video>
       <div className='banner-content'>
         <h1>ADVENTURE AWAITS</h1>
         <h3>What are you waiting for?</h3>
