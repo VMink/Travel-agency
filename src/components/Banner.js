@@ -2,11 +2,12 @@ import React from 'react'
 import './Banner.css'
 import Button from './Button'
 import { AiOutlinePlayCircle } from 'react-icons/ai';
+import Video from "../videos/video-1.mp4"
 
 const Banner = () => {
   return (
     <div className='banner'>
-      <video src='Travel-agency/videos/video-1.mp4' autoPlay loop muted></video>
+      <video src={Video} autoPlay loop muted></video>
       <div className='banner-content'>
         <h1>ADVENTURE AWAITS</h1>
         <h3>What are you waiting for?</h3>
