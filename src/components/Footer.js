@@ -19,40 +19,40 @@ const Footer = () => {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='Travel-agency/sign-up'>How it works</Link>
+            <Link to='Travel-agency/'>Testimonials</Link>
+            <Link to='Travel-agency/'>Careers</Link>
+            <Link to='Travel-agency/'>Investors</Link>
+            <Link to='Travel-agency/'>Terms of Service</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='Travel-agency/'>Contact</Link>
+            <Link to='Travel-agency/'>Support</Link>
+            <Link to='Travel-agency/'>Destinations</Link>
+            <Link to='Travel-agency/'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <Link to='Travel-agency/'>Submit Video</Link>
+            <Link to='Travel-agency/'>Ambassadors</Link>
+            <Link to='Travel-agency/'>Agency</Link>
+            <Link to='Travel-agency/'>Influencer</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='Travel-agency/'>Instagram</Link>
+            <Link to='Travel-agency/'>Facebook</Link>
+            <Link to='Travel-agency/'>Youtube</Link>
+            <Link to='Travel-agency/'>Twitter</Link>
           </div>
         </div>
       </div>
       <div className='footer-sec3'>
         <div className='sec3-left'>
-          <Link to="/">TRVL <i className='fab fa-typo3' /></Link>
+          <Link to="Travel-agency/">TRVL <i className='fab fa-typo3' /></Link>
         </div>
         <div className='sec3-mid'>
           <p>TRVL © 2022</p>

@@ -12,16 +12,16 @@ const Sidebar = ({click}) => {
   return (
     <div className='sidebar' style={style}>
       <div className='nav-link-container'>
-        <Link className='nav-link-mobile' to="/">Home</Link>
+        <Link className='nav-link-mobile' to="Travel-agency/">Home</Link>
       </div>
       <div className='nav-link-container'>
-        <Link className='nav-link-mobile' to="/services">Services</Link>
+        <Link className='nav-link-mobile' to="Travel-agency/services">Services</Link>
       </div>
       <div className='nav-link-container'>
-        <Link className='nav-link-mobile' to="/products">Products</Link>
+        <Link className='nav-link-mobile' to="Travel-agency/products">Products</Link>
       </div>
       <div className='btn-container'>
-        <Link to='sign-up'>    
+        <Link to='Travel-agency/sign-up'>    
           <button className='mobile-button'>Sign Up</button>
         </Link>
       </div>

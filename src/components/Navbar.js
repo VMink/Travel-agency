@@ -10,18 +10,18 @@ const Navbar = ({handleClick, click}) => {
   return (
     <nav className='navbar'>
       <div className='left'>
-        <Link className='nav-link' to="/">TRVL <i className='fab fa-typo3' /></Link>
+        <Link className='nav-link' to="Travel-agency/">TRVL <i className='fab fa-typo3' /></Link>
       </div>
       <div className='right'>
         <ul>
           <li>
-            <Link className='nav-link' to="/">Home</Link>
+            <Link className='nav-link' to="Travel-agency/">Home</Link>
           </li>
           <li>
-            <Link className='nav-link' to="/services">Services</Link>
+            <Link className='nav-link' to="Travel-agency/services">Services</Link>
           </li>
           <li>
-            <Link className='nav-link' to="/products">Products</Link>
+            <Link className='nav-link' to="Travel-agency/products">Products</Link>
           </li>
         </ul>
         <Button btnSize={'button-medium'} btnContent={'Sign Up'} isHovered={'no-hovered'}>SIGN IN</Button>

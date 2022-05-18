@@ -4,7 +4,7 @@ import './Button.css'
 
 const Button = ({btnSize, children, isHovered}) => {
   return (
-    <Link to='sign-up' className='button-link' style={{ textDecoration: 'none' }}> 
+    <Link to='Travel-agency/sign-up' className='button-link' style={{ textDecoration: 'none' }}> 
       <button className={`button ${btnSize} ${isHovered}`}>
         {children}
       </button>
